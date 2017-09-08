@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "unaguas-test",
+    "description": "",
+    "slug": "unaguas-test",
+    "privacy": "public",
+    "sdkVersion": "20.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "notification": {
+      "icon": "./assets/icons/Unaguas.png",
+      "color": "#000000"
+    },
+    "loading": {
+      "icon": "./assets/icons/Unaguas.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
