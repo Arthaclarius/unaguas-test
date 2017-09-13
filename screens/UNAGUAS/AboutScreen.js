@@ -42,7 +42,7 @@ export default class AboutScreen extends React.Component {
     'RESEÑA HISTÓRICA'
     , {flex: 1}))
 
-    nPageContent.push(this._createContentPageItem('ScrollView',
+    nPageContent.push(this._createContentPageItem('Text',
     "UNAGUAS se encuentra en el cantón de Grecia, a 45 kilómetros al oeste de San José, la capital del país, con una extensión de" +
     " 395.72 km² y una población aproximada de 75 000 habitantes. Grecia está al pie de la Cordillera Volcánica Central, zona" +
     " donde tienen origen varios mantos acuíferos y gran número de manantiales y ríos, de los cuales los Acueductos" +
@@ -71,35 +71,35 @@ export default class AboutScreen extends React.Component {
     " una mayor eficiencia en la prestación de ese servicio."
     , {flex: 1}))
 
-    // nPageContent.push(this._createContentPageItem('Header',
-    // 'ENTIDAD, CREÍBLE Y SOSTENIBLE'
-    // , {flexWrap: 'wrap'}))
-    //
-    // nPageContent.push(this._createContentPageItem('Text',
-    // "UNAGUAS tiene hoy ya diez años de existencia y es mantenida integralmente, de manera voluntaria, por los" +
-    // " de los Acueductos Comunales que la conforman. Por otro lado, la organización ha ido fortaleciéndose" +
-    // " sí misma. Hace cuatro años dio el paso de tener una oficina y una persona para atender las necesidades" +
-    // " sus Acueductos miembros. Eso se mantiene hasta hoy, pero dentro de mejores oficinas y con una persona" +
-    // ". Además, en el último año estructuró su propio sitio WEB donde se brindan documentos," +
-    // ", eventos, proyectos y servicios, además desde 2009 comenzó a tener una participación asidua" +
-    // " diversos foros cantonales, nacionales e internacionales. De igual modo, su proceso de capacitación" +
-    // " ha incrementado, dándose en promedio uno o dos talleres de ese tipo por mes a los Acueductos" +
-    // ", como a los que no conforman la Unión. Asimismo, su reconocimiento y credibilidad se ha" +
-    // ", tanto dentro de los mismos Acueductos miembros como dentro del sector de Acueductos" +
-    // " del país, ante diversas instituciones y organizaciones y allende las fronteras. Hoy en" +
-    // ", tanto en el cantón como a nivel nacional, en temas de agua potable, recurso hídrico y otros," +
-    // " un actor indispensable. Todo lo anterior induce a pensar que la organización está en un franco" +
-    // " de desarrollo, de fortalecimiento y de consolidación, lo que implica sostenibilidad." +
-    // " necesidad de unirse. En el sector de los Acueductos Comunales costarricenses, su" +
-    // " pasará necesariamente por eso. La asociatividad es clave para el desarrollo" +
-    // " capacidades e iniciativas en común, todo lo cual lleva a fortalecimiento, consolidación," +
-    // " e incidencia. Sin cacao no hay chocolate. UNAGUAS ha demostrado que cuando" +
-    // " quiere se puede, pero que hay que mente aportan los Acueductos miembros son el compromiso" +
-    // " de cada uno de ellos con la experiencia, estar dispuestos a aportar. Los montos que" +
-    // " brindan los Acueductos son los que hacen vivir a UNAGUAS, por tanto, eso" +
-    // " con los mismos recursos del sector, puestos en común, aunque escasos, se pueden" +
-    // " grandes cosas."
-    // , {flexWrap: 'wrap'}))
+    nPageContent.push(this._createContentPageItem('Header',
+    'ENTIDAD, CREÍBLE Y SOSTENIBLE'
+    , {flexWrap: 'wrap'}))
+
+    nPageContent.push(this._createContentPageItem('Text',
+    "UNAGUAS tiene hoy ya diez años de existencia y es mantenida integralmente, de manera voluntaria, por los" +
+    " de los Acueductos Comunales que la conforman. Por otro lado, la organización ha ido fortaleciéndose" +
+    " sí misma. Hace cuatro años dio el paso de tener una oficina y una persona para atender las necesidades" +
+    " sus Acueductos miembros. Eso se mantiene hasta hoy, pero dentro de mejores oficinas y con una persona" +
+    ". Además, en el último año estructuró su propio sitio WEB donde se brindan documentos," +
+    ", eventos, proyectos y servicios, además desde 2009 comenzó a tener una participación asidua" +
+    " diversos foros cantonales, nacionales e internacionales. De igual modo, su proceso de capacitación" +
+    " ha incrementado, dándose en promedio uno o dos talleres de ese tipo por mes a los Acueductos" +
+    ", como a los que no conforman la Unión. Asimismo, su reconocimiento y credibilidad se ha" +
+    ", tanto dentro de los mismos Acueductos miembros como dentro del sector de Acueductos" +
+    " del país, ante diversas instituciones y organizaciones y allende las fronteras. Hoy en" +
+    ", tanto en el cantón como a nivel nacional, en temas de agua potable, recurso hídrico y otros," +
+    " un actor indispensable. Todo lo anterior induce a pensar que la organización está en un franco" +
+    " de desarrollo, de fortalecimiento y de consolidación, lo que implica sostenibilidad." +
+    " necesidad de unirse. En el sector de los Acueductos Comunales costarricenses, su" +
+    " pasará necesariamente por eso. La asociatividad es clave para el desarrollo" +
+    " capacidades e iniciativas en común, todo lo cual lleva a fortalecimiento, consolidación," +
+    " e incidencia. Sin cacao no hay chocolate. UNAGUAS ha demostrado que cuando" +
+    " quiere se puede, pero que hay que mente aportan los Acueductos miembros son el compromiso" +
+    " de cada uno de ellos con la experiencia, estar dispuestos a aportar. Los montos que" +
+    " brindan los Acueductos son los que hacen vivir a UNAGUAS, por tanto, eso" +
+    " con los mismos recursos del sector, puestos en común, aunque escasos, se pueden" +
+    " grandes cosas."
+    , {flexWrap: 'wrap'}))
 
 
 
@@ -117,7 +117,7 @@ export default class AboutScreen extends React.Component {
     }else if (itemContent.type === 'ScrollView') {
       return (
         <ScrollView>
-          <Text numberOfLines={4} style={itemContent.style}>{itemContent.val}</Text>
+          <Text numberOfLines={80} style={itemContent.style}>{itemContent.val}</Text>
         </ScrollView>
       )
     }else if (itemContent.type === 'Header') {
@@ -144,16 +144,14 @@ export default class AboutScreen extends React.Component {
 
   render(){
     return (
-      <View>
+      <View style={styles.container}>
         <View>
           <Header title="UNAGUAS" back="false" menu="true" onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
         </View>
-        <ScrollView>
-          <Content style={{
-            padding: 10
-          }}>
+        <ScrollView style={styles.container}>
+          <Content style={styles.contentContainer}>
             {this.Content && this.Content.map((item, index) => {
-              return (<View style={{flex: 1}}>{this._renderDataContent(item, index)}</View>)
+              return (<View>{this._renderDataContent(item, index)}</View>)
             }) }
           </Content>
         </ScrollView>
@@ -165,3 +163,15 @@ export default class AboutScreen extends React.Component {
   }
 
 }
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+  },
+  contentContainer: {
+    paddingVertical: 30,
+    paddingHorizontal: 20,
+  },
+})
