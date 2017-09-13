@@ -23,10 +23,10 @@ import _renderDataContent from '../../components/renderData';
 import PageData from './ScreenData/data_AboutScreen'
 
 //Class
-export default class AboutScreen extends React.Component {
+export default class DonarScreen extends React.Component {
   static navigationOptions = {
-    title: 'Acerca de Nosotros',
-    drawerLabel: 'Acerca de Nosotros'
+    title: 'Donar',
+    drawerLabel: 'Donar'
   };
 
   constructor(props){
@@ -41,7 +41,7 @@ export default class AboutScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View>
-          <Header title="Acerca de Nosotros" back="true" menu="true" onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
+          <Header title="Donar" back="true" menu="true" onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
         </View>
         <ScrollView style={styles.container}>
           <Content style={styles.contentContainer}>
