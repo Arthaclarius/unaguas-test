@@ -12,7 +12,6 @@ import {
 } from 'react-native';
 import { Content, Button, Icon, Title, H1, H2, H3, Thumbnail, List, ListItem } from 'native-base';
 
-
 //Header & Footer
 import Header from '../../components/HeaderUnaguas';
 import Footer from '../../components/FooterUnaguas';
