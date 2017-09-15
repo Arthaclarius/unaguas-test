@@ -20,7 +20,7 @@ import Footer from '../../components/FooterUnaguas';
 import _renderDataContent from '../../components/renderData';
 
 //Data Page
-import PageData from './ScreenData/data_AboutScreen'
+import PageData from './ScreenData/data_DonarScreen'
 
 //Class
 export default class DonarScreen extends React.Component {
