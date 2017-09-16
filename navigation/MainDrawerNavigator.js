@@ -9,10 +9,14 @@ import AboutScreen from '../screens/UNAGUAS/AboutScreen';
 import DonarScreen from '../screens/UNAGUAS/DonarScreen';
 import GalleryScreen from '../screens/UNAGUAS/GalleryScreen';
 import ContactScreen from '../screens/UNAGUAS/ContactScreen';
+import AcuaductosScreen from '../screens/UNAGUAS/AcuaductosScreen';
 
 export default DrawerNavigator({
   Home: {
     screen: HomeScreen,
+  },
+  Acuaductos: {
+    screen: AcuaductosScreen,
   },
   Gallery: {
     screen: GalleryScreen,

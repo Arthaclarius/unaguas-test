@@ -4,10 +4,6 @@ import { StyleSheet } from 'react-native';
 
 
 export default class HeaderUnaguas extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <Header style={styles.headerContainer}>
