@@ -14,7 +14,11 @@ import Footer from '../../components/FooterUnaguas';
 
 import { WebBrowser } from 'expo';
 
+const imgPrincipal = '../../assets/images/Principio.png'
+
 export default class HomeScreen extends React.Component {
+
+
   static navigationOptions = {
     title: 'UNAGUAS',
     drawerLabel: 'Pagina Principal'

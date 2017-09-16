@@ -5,9 +5,18 @@ export default [
     },
     {
     	type: 'List',
-	    val: [`La conservación de los Recursos Naturales, Cuencas Hidrográficas y Zonas de Recarga Acuífera del Cantón de Grecia.`,
-	    "Fortalecer el accionar de los Acueductos Comunales del cantón en procura de una adecuada gestión del recurso hídrico" +
-	    "y de un servicio de agua potable en calidad y cantidad."],
+	    val:
+			[
+				{
+					type: 'Text',
+					val: '\u2022  ' + `La conservación de los Recursos Naturales, Cuencas Hidrográficas y Zonas de Recarga Acuífera del Cantón de Grecia.`
+				},
+				{
+					type: 'Text',
+					val: '\u2022  ' + "Fortalecer el accionar de los Acueductos Comunales del cantón en procura de una adecuada gestión del recurso hídrico" +
+			    "y de un servicio de agua potable en calidad y cantidad."
+				}
+	    ],
     },
     {
     	type: 'Header',

@@ -7,15 +7,23 @@ import Colors from '../constants/Colors';
 import HomeScreen from '../screens/UNAGUAS/HomeScreen';
 import AboutScreen from '../screens/UNAGUAS/AboutScreen';
 import DonarScreen from '../screens/UNAGUAS/DonarScreen';
+import GalleryScreen from '../screens/UNAGUAS/GalleryScreen';
+import ContactScreen from '../screens/UNAGUAS/ContactScreen';
 
 export default DrawerNavigator({
   Home: {
     screen: HomeScreen,
+  },
+  Gallery: {
+    screen: GalleryScreen,
   },
   About: {
     screen: AboutScreen,
   },
   Donar: {
     screen: DonarScreen,
+  },
+  Contact: {
+    screen: ContactScreen,
   }
 });
