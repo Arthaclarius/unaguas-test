@@ -1,7 +1,7 @@
 export default [
 {
   type: "H2",
-  val: 'Acueducto Comunal Santa Gertrudis Centro'
+  val: 'Santa Gertrudis Centro'
 },
 {
   type: 'Text',
