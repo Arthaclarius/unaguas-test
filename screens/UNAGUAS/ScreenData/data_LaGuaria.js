@@ -1,7 +1,7 @@
 export default [
   {
     type: "H2",
-    val: 'Acueducto Comunal La Guaria'
+    val: 'Comunal La Guaria'
   },
   {
     type: 'Text',
