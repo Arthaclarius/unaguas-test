@@ -1,7 +1,7 @@
 export default [
 {
   type: "H2",
-  val: 'Barrio Latino'
+  val: 'Acueducto Comunal Barrio Latino'
 },
 {
   type: 'Text',
