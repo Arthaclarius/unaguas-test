@@ -1,3 +1,5 @@
+import styles from '../../../assets/styles/UnaguasStyle'
+
 export default [
 	{
 		type: 'Text',
@@ -21,6 +23,7 @@ export default [
     {
     	type: 'Header',
     	val: 'RESEÑA HISTÓRICA',
+			style: styles.Title,
     },
     {
     	type: 'Text',
@@ -54,6 +57,7 @@ export default [
     {
     	type: 'Header',
     	val: 'ENTIDAD, CREÍBLE Y SOSTENIBLE',
+			style: styles.Title,
     },
     {
     	type: 'Text',

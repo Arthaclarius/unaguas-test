@@ -1,53 +1,65 @@
+import styles from '../../../assets/styles/UnaguasStyle'
+
 export default [
   {
-    type: 'h3',
-    val: '¿Cómo Contactarnos?'
+    type: 'H3',
+    val: '¿Cómo Contactarnos?',
+    style: styles.Subtitle
   },
   {
-    type: 'View',
+    type: 'List',
     val: [
       {
-        type: 'Text',
-        val: 'Correo Electrónico'
+        type: 'View',
+        val: [
+          {
+            type: 'Text',
+            val: 'Correo Electrónico',
+            style: styles.boldText
+          },
+          {
+            type: 'Text',
+            val: 'info@unaguas.org'
+          }
+        ]
       },
       {
-        type: 'Text',
-        val: 'info@unaguas.org'
-      }
-    ]
-  },
-  {
-    type: 'View',
-    val: [
-      {
-        type: 'Text',
-        val: 'Horario de Atención'
+        type: 'View',
+        val: [
+          {
+            type: 'Text',
+            val: 'Horario de Atención',
+            style: styles.boldText
+          },
+          {
+            type: 'Text',
+            val: 'Lunea a Miércoles de 8:00am a 8:00pm'
+          }
+        ]
       },
       {
-        type: 'Text',
-        val: 'Lunea a Miércoles de 8:00am a 8:00pm'
-      }
-    ]
-  },
-  {
-    type: 'View',
-    val: [
-      {
-        type: 'Text',
-        val: 'Telefax (506) 2495-2000'
-      }
-    ]
-  },
-  {
-    type: 'View',
-    val: [
-      {
-        type: 'Text',
-        val: 'Nuestra Ubicación:'
+        type: 'View',
+        val: [
+          {
+            type: 'Text',
+            val: 'Telefax (506) 2495-2000',
+            style: styles.boldText
+          }
+        ]
       },
       {
-        type: 'Text',
-        val: 'Contiguo a Ferretería Tipsa en Santa Gertrudis Centro'
+        type: 'View',
+        val: [
+          {
+            type: 'Text',
+            val: 'Nuestra Ubicación:',
+            style: styles.boldText
+          },
+          {
+            type: 'Text',
+            val: 'Contiguo a Ferretería Tipsa en Santa Gertrudis Centro'
+          }
+        ]
       }
     ]
   }

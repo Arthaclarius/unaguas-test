@@ -16,6 +16,7 @@ import {
   H1,
   H2,
   H3,
+  H4,
   Thumbnail,
   List,
   ListItem,
@@ -35,6 +36,30 @@ const imagesRequired = [
   }, {
     name: 'gallery-2',
     file: require('../assets/images/Gallery/gallery-2.png')
+  }, {
+    name: 'gallery-3',
+    file: require('../assets/images/Gallery/gallery-3.png')
+  }, {
+    name: 'gallery-4',
+    file: require('../assets/images/Gallery/gallery-4.png')
+  }, {
+    name: 'gallery-5',
+    file: require('../assets/images/Gallery/gallery-5.png')
+  }, {
+    name: 'gallery-6',
+    file: require('../assets/images/Gallery/gallery-6.png')
+  }, {
+    name: 'gallery-7',
+    file: require('../assets/images/Gallery/gallery-7.png')
+  }, {
+    name: 'gallery-8',
+    file: require('../assets/images/Gallery/gallery-8.png')
+  }, {
+    name: 'gallery-9',
+    file: require('../assets/images/Gallery/gallery-9.png')
+  }, {
+    name: 'gallery-10',
+    file: require('../assets/images/Gallery/gallery-10.png')
   }
 ]
 
