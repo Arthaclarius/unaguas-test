@@ -41,7 +41,7 @@ export default class AcuaductosScreen extends React.Component {
     //Poner en Orden al Index del PageData
     listAcuaductos.push(data_AcueductoLaGuaria)
     listAcuaductos.push(data_AcueductoSantaGertrudisCentro)
-    listAcuaductos.push(data_AcueductoSantaGertrudisCentroSur)
+    listAcuaductos.push(data_AcueductoSantaGertrudisSur)
     listAcuaductos.push(data_AcueductoComunalBarrioLatino)
 
     //Set the Page Data
