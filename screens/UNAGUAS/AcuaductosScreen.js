@@ -24,6 +24,7 @@ import PageData from './ScreenData/data_AcuaductosScreen'
 
 import data_LaGuaria from './ScreenData/data_LaGuaria'
 import data_SantaGertrudisCentroAcueducto from './ScreenData/data_SantaGertrudisCentroAcueducto'
+import data_AcueductoComunalBarrioLatino from './ScreenData/data_AcueductoComunalBarrioLatino'
 
 //Class
 export default class AcuaductosScreen extends React.Component {
@@ -39,6 +40,7 @@ export default class AcuaductosScreen extends React.Component {
     //Poner en Orden al Index del PageData
     listAcuaductos.push(data_LaGuaria)
     listAcuaductos.push(data_SantaGertrudisCentroAcueducto)
+    listAcuaductos.push(data_AcueductoComunalBarrioLatino)
 
     //Set the Page Data
     this.state = {
