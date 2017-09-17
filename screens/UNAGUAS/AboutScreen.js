@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 //Native Elements
 import {
   Image,
@@ -11,6 +12,7 @@ import {
   View,
 } from 'react-native';
 import { Content, Button, Icon, Title, H1, H2, H3, Thumbnail, List, ListItem } from 'native-base';
+import styles from '../../assets/styles/UnaguasStyle'
 
 //Header & Footer
 import Header from '../../components/HeaderUnaguas';
@@ -60,15 +62,3 @@ export default class AboutScreen extends React.Component {
   }
 
 }
-
-//Styles
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f5f5f5',
-  },
-  contentContainer: {
-    paddingVertical: 30,
-    paddingHorizontal: 20,
-  },
-})
