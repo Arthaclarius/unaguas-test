@@ -43,7 +43,7 @@ export default class AboutScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View>
-          <Header title="Acerca de Nosotros" back="true" menu="true" onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
+          <Header title="Acerca de Nosotros" back="true" menu="true" onBackPress={() => this.props.navigation.goBack()} onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
         </View>
         <ScrollView style={styles.container}>
           <Content style={styles.contentContainer}>

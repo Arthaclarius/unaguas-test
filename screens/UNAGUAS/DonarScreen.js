@@ -42,7 +42,7 @@ export default class DonarScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View>
-          <Header title="Donar" back="true" menu="true" onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
+          <Header title="Donar" back="true" menu="true" onBackPress={() => this.props.navigation.goBack()} onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
         </View>
         <ScrollView style={styles.container}>
           <Content style={styles.contentContainer}>

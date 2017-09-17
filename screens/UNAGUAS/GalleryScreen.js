@@ -41,7 +41,7 @@ export default class GalleryScreen extends React.Component {
     return (
       <View style={styles.container}>
         <View>
-          <Header title="Galeria" back="true" menu="true" onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
+          <Header title="Galeria" back="true" menu="true" onBackPress={() => this.props.navigation.goBack()} onMenuPress={() => {this.props.navigation.navigate('DrawerOpen')}}/>
         </View>
         <ScrollView style={styles.container}>
           <Content style={styles.contentContainer}>
