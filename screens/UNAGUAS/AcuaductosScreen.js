@@ -22,8 +22,9 @@ import _renderDataContent from '../../components/renderData';
 //Data Page
 import PageData from './ScreenData/data_AcuaductosScreen'
 
-import data_LaGuaria from './ScreenData/data_LaGuaria'
-import data_SantaGertrudisCentroAcueducto from './ScreenData/data_SantaGertrudisCentroAcueducto'
+import data_LaGuaria from './ScreenData/data_AcueductoLaGuaria'
+import data_SantaGertrudisCentroAcueducto from './ScreenData/data_AcueductoSantaGertrudisCentro'
+import data_AcueductoSantaGertrudisSur from './ScreenData/data_AcueductoSantaGertrudisSur'
 import data_AcueductoComunalBarrioLatino from './ScreenData/data_AcueductoComunalBarrioLatino'
 
 //Class
@@ -38,8 +39,9 @@ export default class AcuaductosScreen extends React.Component {
 
     let listAcuaductos = []
     //Poner en Orden al Index del PageData
-    listAcuaductos.push(data_LaGuaria)
-    listAcuaductos.push(data_SantaGertrudisCentroAcueducto)
+    listAcuaductos.push(data_AcueductoLaGuaria)
+    listAcuaductos.push(data_AcueductoSantaGertrudisCentro)
+    listAcuaductos.push(data_AcueductoSantaGertrudisCentroSur)
     listAcuaductos.push(data_AcueductoComunalBarrioLatino)
 
     //Set the Page Data
