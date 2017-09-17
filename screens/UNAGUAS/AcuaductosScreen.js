@@ -26,6 +26,10 @@ import data_AcueductoLaGuaria from './ScreenData/data_AcueductoLaGuaria'
 import data_AcueductoSantaGertrudisCentro from './ScreenData/data_AcueductoSantaGertrudisCentro'
 import data_AcueductoSantaGertrudisSur from './ScreenData/data_AcueductoSantaGertrudisSur'
 import data_AcueductoBarrioLatino from './ScreenData/data_AcueductoBarrioLatino'
+import data_AcueductoSanMiguel from './ScreenData/data_AcueductoSanMiguel'
+import data_AcuaductoElCajonDeBolivarDeGrecia from './ScreenData/data_AcuaductoElCajonDeBolivarDeGrecia'
+import data_AcueductoCalleSanJoseCalleRodriguez from './ScreenData/data_AcueductoCalleSanJoseCalleRodriguez'
+import data_AcueductoElCedroCalleGuayabal from './ScreenData/data_AcueductoElCedroCalleGuayabal'
 
 //Class
 export default class AcuaductosScreen extends React.Component {
@@ -43,6 +47,10 @@ export default class AcuaductosScreen extends React.Component {
     listAcuaductos.push(data_AcueductoSantaGertrudisCentro)
     listAcuaductos.push(data_AcueductoSantaGertrudisSur)
     listAcuaductos.push(data_AcueductoBarrioLatino)
+    listAcuaductos.push(data_AcueductoSanMiguel)
+    listAcuaductos.push(data_AcuaductoElCajonDeBolivarDeGrecia)
+    listAcuaductos.push(data_AcueductoCalleSanJoseCalleRodriguez)
+    listAcuaductos.push(data_AcueductoElCedroCalleGuayabal)
 
     //Set the Page Data
     this.state = {
