@@ -30,6 +30,9 @@ import data_AcueductoSanMiguel from './ScreenData/data_AcueductoSanMiguel'
 import data_AcuaductoElCajonDeBolivarDeGrecia from './ScreenData/data_AcuaductoElCajonDeBolivarDeGrecia'
 import data_AcueductoCalleSanJoseCalleRodriguez from './ScreenData/data_AcueductoCalleSanJoseCalleRodriguez'
 import data_AcueductoElCedroCalleGuayabal from './ScreenData/data_AcueductoElCedroCalleGuayabal'
+import data_AcueductoLaArena from './ScreenData/data_AcueductoLaArena'
+import data_AcueductoSanVicente from './ScreenData/data_AcueductoSanVicente'
+import data_AcueductoSanJuan from './ScreenData/data_AcueductoSanJuan'
 
 //Class
 export default class AcuaductosScreen extends React.Component {
@@ -51,6 +54,9 @@ export default class AcuaductosScreen extends React.Component {
     listAcuaductos.push(data_AcuaductoElCajonDeBolivarDeGrecia)
     listAcuaductos.push(data_AcueductoCalleSanJoseCalleRodriguez)
     listAcuaductos.push(data_AcueductoElCedroCalleGuayabal)
+    listAcuaductos.push(data_AcueductoLaArena)
+    listAcuaductos.push(data_AcueductoSanVicente)
+    listAcuaductos.push(data_AcueductoSanJuan)
 
     //Set the Page Data
     this.state = {
