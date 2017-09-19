@@ -4,3 +4,6 @@ Proyecto desarrollado para <a href="http://www.unaguas.org/">UNAGUAS</a> en Reac
 
 Se utilizo una de las plantillas de <a href="https://expo.io/">Expo</a> para generar el proyecto de React Native con un TabNavigator.
 
+### todo
+
+* Cambiar Acuaductos por Acueductos
