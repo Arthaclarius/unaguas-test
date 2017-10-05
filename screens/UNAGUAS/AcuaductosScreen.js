@@ -37,8 +37,8 @@ import data_AcueductoSanJuan from './ScreenData/data_AcueductoSanJuan'
 //Class
 export default class AcuaductosScreen extends React.Component {
   static navigationOptions = {
-    title: 'Acuaductos',
-    drawerLabel: 'Acuaductos'
+    title: 'Acueductos',
+    drawerLabel: 'Acueductos'
   };
 
   constructor(props){
