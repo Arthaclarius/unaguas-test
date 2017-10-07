@@ -600,7 +600,7 @@ export default [
         ]
       }
     ]
-  }
+  },
   {
     type: 'Card',
     val: [
