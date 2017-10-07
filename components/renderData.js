@@ -28,7 +28,6 @@ import JustifiedText from 'react-native-justified-text';
 
 //Load Resources
 //Images
-//Prueba cambios
 const imagesRequired = [
   {
     name: 'Principio',
