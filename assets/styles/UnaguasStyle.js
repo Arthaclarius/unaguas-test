@@ -35,6 +35,10 @@ export default StyleSheet.create({
   },
   boldText: {
     fontWeight: 'bold'
+  },
+  TextJustify: {
+    textAlign: 'justify',
+    flex: 1,
   }
 
 })

@@ -1,22 +1,31 @@
 import styles from '../../../assets/styles/UnaguasStyle'
 
 export default [
-	{
-		type: 'Text',
-	    val: "Creada el 14 de setiembre del 2002, la Unión de Acueductos Griegos Unidos por Ambiente y la Salud, UNAGUAS, tiene dos fundamentales:",
-    },
+		{
+			type: 'View',
+			val: [
+				{
+				type: 'Text',
+			    val: "Creada el 14 de setiembre del 2002, la Unión de Acueductos Griegos Unidos por Ambiente y la Salud, UNAGUAS, tiene dos fundamentales:",
+					style: styles.TextJustify
+		    }
+			],
+			style: {flexDirection: 'column'}
+		},
     {
     	type: 'List',
 	    val:
 			[
 				{
 					type: 'Text',
-					val: '\u2022  ' + `La conservación de los Recursos Naturales, Cuencas Hidrográficas y Zonas de Recarga Acuífera del Cantón de Grecia.`
+					val: '\u2022  ' + `La conservación de los Recursos Naturales, Cuencas Hidrográficas y Zonas de Recarga Acuífera del Cantón de Grecia.`,
+					style: styles.TextJustify
 				},
 				{
 					type: 'Text',
 					val: '\u2022  ' + "Fortalecer el accionar de los Acueductos Comunales del cantón en procura de una adecuada gestión del recurso hídrico" +
-			    "y de un servicio de agua potable en calidad y cantidad."
+			    "y de un servicio de agua potable en calidad y cantidad.",
+					style: styles.TextJustify
 				}
 	    ],
     },
@@ -26,7 +35,7 @@ export default [
 			style: styles.Title,
     },
     {
-    	type: 'Text',
+        type: 'Text',
     	val: "UNAGUAS se encuentra en el cantón de Grecia, a 45 kilómetros al oeste de San José, la capital del país, con una extensión de" +
     " 395.72 km² y una población aproximada de 75 000 habitantes. Grecia está al pie de la Cordillera Volcánica Central, zona" +
     " donde tienen origen varios mantos acuíferos y gran número de manantiales y ríos, de los cuales los Acueductos" +
@@ -53,6 +62,7 @@ export default [
     " Acueductos afiliados. En esta línea de acción, UNAGUAS brindada un apoyo constante en el mejoramiento de las capacidades" +
     " sus afiliados, procurando lograr una mejor calidad en el servicio a sus comunidades, además" +
     " una mayor eficiencia en la prestación de ese servicio.",
+			style: styles.TextJustify
     },
     {
     	type: 'Header',
@@ -60,7 +70,7 @@ export default [
 			style: styles.Title,
     },
     {
-    	type: 'Text',
+        type: 'Text',
     	val: "UNAGUAS tiene hoy ya diez años de existencia y es mantenida integralmente, de manera voluntaria, por los" +
     " de los Acueductos Comunales que la conforman. Por otro lado, la organización ha ido fortaleciéndose" +
     " sí misma. Hace cuatro años dio el paso de tener una oficina y una persona para atender las necesidades" +
@@ -84,5 +94,6 @@ export default [
     " brindan los Acueductos son los que hacen vivir a UNAGUAS, por tanto, eso" +
     " con los mismos recursos del sector, puestos en común, aunque escasos, se pueden" +
     " grandes cosas.",
+			style: styles.TextJustify
     }
 ]

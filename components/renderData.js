@@ -6,7 +6,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   Text,
-  View
+  View,
+  WebView
 } from 'react-native';
 import {
   Content,
@@ -23,6 +24,7 @@ import {
   Card,
   CardItem
 } from 'native-base';
+import JustifiedText from 'react-native-justified-text';
 
 //Load Resources
 //Images
@@ -72,6 +74,14 @@ export default function _renderDataContent(itemContent, indexContent = 0) {
     return (
       <Text style={itemContent.style}>{itemContent.val}</Text>
     //Render Headers
+    )
+  }else if (itemContent.type === 'JustifiedText') {
+    return (
+      <View style={{flex: 1}}>
+      <WebView
+        source={{ html: "<html><head></head><body style='text-align:justify;color:gray;background-color:black;'> Lorem ipsum dolor sit amet, consectetur</body></html>" }} />
+    </View>
+
     )
   } else if (itemContent.type === 'Header') {
     return (

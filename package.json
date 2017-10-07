@@ -6,7 +6,8 @@
   "license": "",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js --watch"
+    "test": "node ./node_modules/jest/bin/jest.js --watch",
+    "flow": "flow"
   },
   "jest": {
     "preset": "jest-expo"
@@ -18,9 +19,13 @@
     "react": "16.0.0-alpha.12",
     "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz",
     "react-native-elements": "^0.16.0",
+    "react-native-justified-text": "^1.0.3",
     "react-navigation": "^1.0.0-beta.12"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.55.0",
     "jest-expo": "^20.0.0"
   }
 }

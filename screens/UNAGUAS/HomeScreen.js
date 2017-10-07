@@ -41,7 +41,7 @@ export default class HomeScreen extends React.Component {
             </View>
 
             <H1 style={styles.titleH1}>Objetivo de UNAGUAS</H1>
-            <Text>
+            <Text style={{ textAlign: 'justify'}}>
               El objetivo de la Unión no es administrar directamente los acueductos,
               sino generar sinergias que permitan una gestión integrada del agua y de los
               territorios de donde se abastecen los Acueductos afiliados. En esta línea de
@@ -61,7 +61,7 @@ export default class HomeScreen extends React.Component {
                 <H1 style={{color: 'rgb(28, 68, 126)'}}>
                   Misión
                 </H1>
-                <Text style={{color: '#fff'}}>
+                <Text style={{color: '#fff', textAlign: 'justify'}}>
                   Fortalecer el accionar de los Acueductos Comunales del cantón de Grecia en
                   procura de una adecuada protección, conservación y gestión del Recurso
                   Hídrico que beneficie a nuestras comunidades.
@@ -71,7 +71,7 @@ export default class HomeScreen extends React.Component {
                 <H1 style={{color: 'rgb(28, 68, 126)'}}>
                   Visión
                 </H1>
-                <Text style={{color: '#fff'}}>
+                <Text style={{color: '#fff', textAlign: 'justify'}}>
                   Somos una organización líder en la defensa de los intereses de nuestros
                   Acueductos Comunales afiliados y del Recurso Hídrico de nuestro cantón.
                 </Text>
