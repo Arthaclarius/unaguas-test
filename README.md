@@ -7,27 +7,27 @@ Se utilizo una de las plantillas de <a href="https://expo.io/">Expo</a> para gen
 
 [TOC]
 
-#Guia de Instalacion para TCU
-##Git
+# Guia de Instalacion para TCU
+## Git
 Descarga e installa [Git](https://git-scm.com/)
 **Activar el GitBash en la Installacion!**
-##NPM
+## NPM
 * Descargar [Nodejs LTS](https://nodejs.org/es/)
-##GitHub
+## GitHub
 * Crear una cuenta en [GitHub](https://github.com)
 * Ir al proyecto de [Unaguas Actual](https://github.com/Arthaclarius/unaguas-test)
 * Hacer Fork del proyecto
 * Revisar que se "clono" el proyecto en sus repositorios
-##Expo
+## Expo
 * Instalar [Expo XDE](https://expo.io/)
-##Editor de Texto
-###Recomendados (Con Git y Github)
+## Editor de Texto
+### Recomendados (Con Git y Github)
 * [VS Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
-###Otros
+### Otros
 * [Sublime Text](https://www.sublimetext.com/)
 * [Brackets](http://brackets.io/)
-##Local
+## Local
 * Crear una carpeta para proyectos (usar una si ya existe)
 * Abrir GitBash
 * Configuren Git
@@ -48,20 +48,20 @@ git commit -m "Message"`
 `git pull`
 * Hagan push(Suban Cambios)
 `git push origin master`
-##Recomendaciones
+## Recomendaciones
 Usar uno de los editores recomendados, son faciles de usar, los pluggins les ayudara a encontrar errores y les permitira manejar los commandos de git con la interfaz.
 
-#El Proyecto
-##Conocimientos y Requisitos
+# El Proyecto
+## Conocimientos y Requisitos
 * Saber usar React y React Native (Vease tutoriales en Youtube)
-##Folders
-assets: Fuentes, iconos, imagenes, estilos
-components: Footer, Header, renderData
-navigation: DrawerNavigator
-screens: UNAGUAS/ las pantallas de unaguas UNAGUAS/ScreenData objetos que se renderizan en renderData
-App.js : Primer JS en ejecutarse
-app.json : Informacion de la App Movile
-package.json: Librerias Installadas
+## Folders
+* assets: Fuentes, iconos, imagenes, estilos
+* components: Footer, Header, renderData
+* navigation: DrawerNavigator
+* screens: UNAGUAS/ las pantallas de unaguas UNAGUAS/ScreenData objetos que se renderizan en renderData
+* App.js : Primer JS en ejecutarse
+* app.json : Informacion de la App Movile
+* package.json: Librerias Installadas
 
 # todo
 
